@@ -1,0 +1,42 @@
+:root {
+    --negro: black;
+    --blanco:white;
+    --negro-hover: rgba(43, 42, 42, 0.767);
+    --blancohover:rgb(204, 196, 196);
+  }
+
+background-color{
+    background-color: (var(--bs-success-rgb), var(--bs-bg-opacity)) !important;
+}
+
+.bg-button {
+    background-color: var(--negro) !important;
+    color: white;
+    transition: all 0.5s ease ;
+}
+.bg-button:hover {
+    background-color: var(--negro-hover)!important;
+    color: var(--blancohover) !important;
+}
+.bg-black {
+    background-color: black;
+    
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    background-color: var(--negro-hover)!important;
+    color: var(--blancohover) !important;
+}
+.text-shadow-custom {
+    text-shadow: 4px 4px 6px rgb(0, 0, 0); 
+  }
+
+@media  (min-width:989px) {
+    
+.visible {
+  visibility: hidden !important;
+}
+.invisible {
+  visibility: visible !important;
+}
+}
